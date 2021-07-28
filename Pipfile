@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+mypy = "*"
+pylint = "*"
+pylint-django = "*"
+django-tastypie = "*"
+
+[dev-packages]
+pylint = "*"
+
+[requires]
+python_version = "3.9"
